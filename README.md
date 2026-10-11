@@ -10,6 +10,7 @@ package under one stable filename and removes older versioned copies of that mod
 <summary>Full changelog</summary>
 
 ### BW Tank Stats
+- **1.8.10:** TAB screen: the stat columns now sit between the player name and the tank name, long names shorten instead of pushing the row, and nothing covers the numbers.
 - **1.8.9:** TAB screen: the small game icon (×) no longer covers the stat numbers.
 - **1.8.8:** Settings window: bigger stat and vehicle class headers, smaller buttons.
 - **1.8.7:** Smaller checkboxes in the settings window.
