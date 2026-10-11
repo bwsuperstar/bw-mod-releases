@@ -10,6 +10,7 @@ package under one stable filename and removes older versioned copies of that mod
 <summary>Full changelog</summary>
 
 ### BW Tank Stats
+- **1.8.8:** Settings window: bigger stat and vehicle class headers, smaller buttons.
 - **1.8.7:** Smaller checkboxes in the settings window.
 - **1.8.6:** Moved the garage update notice into the mod so it appears during the first automatic update from an older release.
 - **1.8.5:** Added an English garage notification for the automatic update result and fully hidden background updater processes.
