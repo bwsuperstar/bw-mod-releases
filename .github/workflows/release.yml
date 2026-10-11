@@ -16,7 +16,7 @@ jobs:
           import hashlib, json, pathlib, zipfile
           manifest = json.loads(pathlib.Path('manifest.json').read_text())
           expected = {'bw_tank_stats', 'bw_hangar_stats', 'bw_reserves',
-                      'bw_autoclaim', 'bw_network_monitor'}
+                      'bw_autoclaim'}
           assert manifest['schema'] == 2
           assert set(manifest['mods']) == expected
           for mod, record in manifest['mods'].items():
@@ -40,3 +40,14 @@ jobs:
           else
             gh release create "$GITHUB_REF_NAME" manifest.json packages/*.wotmod packages/*.zip --title "$GITHUB_REF_NAME" --notes "BlackWOT mods for World of Tanks."
           fi
+      - name: Remove older releases that still carry the abandoned BW Network Monitor
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release list --limit 200 --json tagName --jq '.[].tagName' | while read -r tag; do
+            if [ "$tag" = "$GITHUB_REF_NAME" ]; then continue; fi
+            if gh release view "$tag" --json assets --jq '.assets[].name' | grep -qi 'network_monitor'; then
+              echo "deleting $tag"
+              gh release delete "$tag" --cleanup-tag --yes
+            fi
+          done
