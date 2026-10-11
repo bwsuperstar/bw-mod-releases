@@ -1,0 +1,42 @@
+name: Publish BW mods
+on:
+  push:
+    tags:
+      - 'v*'
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify manifest and binary packages
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, zipfile
+          manifest = json.loads(pathlib.Path('manifest.json').read_text())
+          expected = {'bw_tank_stats', 'bw_hangar_stats', 'bw_reserves',
+                      'bw_autoclaim', 'bw_network_monitor'}
+          assert manifest['schema'] == 2
+          assert set(manifest['mods']) == expected
+          for mod, record in manifest['mods'].items():
+              path = pathlib.Path('packages') / record['asset']
+              assert path.is_file()
+              assert hashlib.sha256(path.read_bytes()).hexdigest() == record['sha256']
+              with zipfile.ZipFile(path) as archive:
+                  names = set(archive.namelist())
+                  assert archive.testzip() is None
+                  assert not any(name.endswith('.py') for name in names)
+                  assert 'res/scripts/client/gui/mods/mod_%s.pyc' % mod in names
+                  assert 'res/mods/bw_autoupdate/%s.pyc' % mod in names
+          PY
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" manifest.json packages/*.wotmod packages/*.zip --clobber
+            gh release edit "$GITHUB_REF_NAME" --title "$GITHUB_REF_NAME" --notes "BlackWOT mods for World of Tanks."
+          else
+            gh release create "$GITHUB_REF_NAME" manifest.json packages/*.wotmod packages/*.zip --title "$GITHUB_REF_NAME" --notes "BlackWOT mods for World of Tanks."
+          fi
