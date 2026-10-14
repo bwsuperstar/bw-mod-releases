@@ -10,6 +10,9 @@ package under one stable filename and removes older versioned copies of that mod
 <summary>Full changelog</summary>
 
 ### BW Tank Stats
+- **1.8.15:** Updated and packaged for World of Tanks 2.4.1.0.
+- **1.8.14:** Made the GLOBAL and TANKS setup sections mutually exclusive.
+- **1.8.13:** Redesigned the in-game setup window and added the GLOBAL section.
 - **1.8.10:** TAB screen: the stat columns now sit between the player name and the tank name, long names shorten instead of pushing the row, and nothing covers the numbers.
 - **1.8.9:** TAB screen: the small game icon (×) no longer covers the stat numbers.
 - **1.8.8:** Settings window: bigger stat and vehicle class headers, smaller buttons.
@@ -24,6 +27,8 @@ package under one stable filename and removes older versioned copies of that mod
 - **1.0.0–1.7.4:** Earlier local packages exist; individual change notes were not recorded.
 
 ### BW Hangar Stats
+- **1.10.9:** Updated and packaged for World of Tanks 2.4.1.0.
+- **1.10.8:** Added a compatibility payload for systems that block native mod components.
 - **1.10.6:** Moved the garage update notice into the mod so it appears during the first automatic update from an older release.
 - **1.10.5:** Added an English garage notification for the automatic update result and fully hidden background updater processes.
 - **1.10.4:** Moved automatic updates to the shared manifest and added verified replacement of older installed packages after game exit.
@@ -33,6 +38,8 @@ package under one stable filename and removes older versioned copies of that mod
 - **1.0.0–1.10.0:** Earlier local packages exist; individual change notes were not recorded.
 
 ### BW Reserves
+- **1.1.10:** Updated and packaged for World of Tanks 2.4.1.0.
+- **1.1.9:** Added a compatibility payload for systems that block native mod components.
 - **1.1.7:** Moved the garage update notice into the mod so it appears during the first automatic update from an older release.
 - **1.1.6:** Added an English garage notification for the automatic update result and fully hidden background updater processes.
 - **1.1.5:** Moved automatic updates to the shared manifest and added verified replacement of older installed packages after game exit.
@@ -42,6 +49,8 @@ package under one stable filename and removes older versioned copies of that mod
 - **1.0.0–1.1.1:** Earlier local packages exist; individual change notes were not recorded.
 
 ### BW AutoClaim
+- **1.2.11:** Updated and packaged for World of Tanks 2.4.1.0.
+- **1.2.10:** Added a compatibility payload for systems that block native mod components.
 - **1.2.8:** Moved the garage update notice into the mod so it appears during the first automatic update from an older release.
 - **1.2.7:** Added an English garage notification for the automatic update result and fully hidden background updater processes.
 - **1.2.6:** Moved automatic updates to the shared manifest and added verified replacement of older installed packages after game exit.
