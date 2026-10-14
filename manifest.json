@@ -10,7 +10,7 @@
       "asset": "bw_tank_stats_1.8.16.wotmod",
       "size": 294823,
       "sha256": "6b21cac09297dd3af961dea394869e6a73146207f3430ad8e3def6e92d7039bb",
-      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.14.5/bw_tank_stats_1.8.16.wotmod"
+      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.14.6/bw_tank_stats_1.8.16.wotmod"
     },
     "bw_hangar_stats": {
       "version": "1.10.10",
@@ -21,18 +21,18 @@
       "asset": "bw_hangar_stats_1.10.10.wotmod",
       "size": 202362,
       "sha256": "94a4f9d387a9cdfba6c3bbcb1c833a9d90c90873daa56fe518b490b35f9ce7a1",
-      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.14.5/bw_hangar_stats_1.10.10.wotmod"
+      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.14.6/bw_hangar_stats_1.10.10.wotmod"
     },
     "bw_reserves": {
-      "version": "1.1.11",
+      "version": "1.1.12",
       "game_versions": [
         "2.4.1.0",
         "2.4.0.2"
       ],
-      "asset": "bw_reserves_1.1.11.wotmod",
-      "size": 102837,
-      "sha256": "f8ec6929881ca360f3ec06cd1cd28793a790571375e735d16f2443b3f4aa2019",
-      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.14.5/bw_reserves_1.1.11.wotmod"
+      "asset": "bw_reserves_1.1.12.wotmod",
+      "size": 107426,
+      "sha256": "57c0a71e0dffe1a51a2d11e091c61940a3ede4c1a9a8ab57075442de2edd59aa",
+      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.14.6/bw_reserves_1.1.12.wotmod"
     },
     "bw_autoclaim": {
       "version": "1.2.11",
@@ -43,7 +43,7 @@
       "asset": "bw_autoclaim_1.2.11.wotmod",
       "size": 100078,
       "sha256": "33c03feded21ad1f7e24567944811788e70b24ec2492852bc8c01342e7359714",
-      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.14.5/bw_autoclaim_1.2.11.wotmod"
+      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.14.6/bw_autoclaim_1.2.11.wotmod"
     }
   }
 }

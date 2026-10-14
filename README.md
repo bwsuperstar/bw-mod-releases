@@ -40,6 +40,7 @@ package under one stable filename and removes older versioned copies of that mod
 - **1.0.0–1.10.0:** Earlier local packages exist; individual change notes were not recorded.
 
 ### BW Reserves
+- **1.1.12:** Redesigned the Personal Reserves window with the BW Stats blue visual style and checkbox controls.
 - **1.1.11:** Restored the settings window and removed the recurring restart prompt.
 - **1.1.10:** Updated and packaged for World of Tanks 2.4.1.0.
 - **1.1.9:** Added a compatibility payload for systems that block native mod components.
