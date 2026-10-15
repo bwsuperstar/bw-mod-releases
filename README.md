@@ -10,6 +10,7 @@ package under one stable filename and removes older versioned copies of that mod
 <summary>Full changelog</summary>
 
 ### BW Tank Stats
+- **1.8.27:** Pre-stages the verified package for the next World of Tanks micropatch folder.
 - **1.8.16:** Restored settings and TAB layouts on World of Tanks 2.4.1 and updated battle panel registration.
 - **1.8.15:** Updated and packaged for World of Tanks 2.4.1.0.
 - **1.8.14:** Made the GLOBAL and TANKS setup sections mutually exclusive.
@@ -28,6 +29,7 @@ package under one stable filename and removes older versioned copies of that mod
 - **1.0.0–1.7.4:** Earlier local packages exist; individual change notes were not recorded.
 
 ### BW Hangar Stats
+- **1.10.13:** Pre-stages the verified package for the next World of Tanks micropatch folder.
 - **1.10.10:** Restored the garage widget through native World of Tanks 2.4.1 resource registration.
 - **1.10.9:** Updated and packaged for World of Tanks 2.4.1.0.
 - **1.10.8:** Added a compatibility payload for systems that block native mod components.
@@ -40,6 +42,7 @@ package under one stable filename and removes older versioned copies of that mod
 - **1.0.0–1.10.0:** Earlier local packages exist; individual change notes were not recorded.
 
 ### BW Reserves
+- **1.1.13:** Pre-stages the verified package for the next World of Tanks micropatch folder.
 - **1.1.12:** Redesigned the Personal Reserves window with the BW Stats blue visual style and checkbox controls.
 - **1.1.11:** Restored the settings window and removed the recurring restart prompt.
 - **1.1.10:** Updated and packaged for World of Tanks 2.4.1.0.
@@ -53,6 +56,7 @@ package under one stable filename and removes older versioned copies of that mod
 - **1.0.0–1.1.1:** Earlier local packages exist; individual change notes were not recorded.
 
 ### BW AutoClaim
+- **1.2.12:** Pre-stages the verified package for the next World of Tanks micropatch folder.
 - **1.2.11:** Updated and packaged for World of Tanks 2.4.1.0.
 - **1.2.10:** Added a compatibility payload for systems that block native mod components.
 - **1.2.8:** Moved the garage update notice into the mod so it appears during the first automatic update from an older release.
