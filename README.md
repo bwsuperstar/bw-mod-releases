@@ -10,6 +10,7 @@ package under one stable filename and removes older versioned copies of that mod
 <summary>Full changelog</summary>
 
 ### BW Stats
+- **1.8.30:** Removes document-wide battle mouse handlers; TAB tooltips now listen only on the mod's own elements.
 - **1.8.29:** Activates a downloaded update during the same game start and reports it as active without requesting a restart.
 - **1.8.28:** Loads one statistics snapshot at battle start, prevents duplicate requests and removes recurring battle UI work that could reduce FPS.
 - **1.8.27:** Confirmed compatible with Micropatch 2.4.1_1, which retains the 2.4.1.0 mod folder.
@@ -31,6 +32,7 @@ package under one stable filename and removes older versioned copies of that mod
 - **1.0.0–1.7.4:** Earlier local packages exist; individual change notes were not recorded.
 
 ### BW Hangar Stats
+- **1.10.16:** Disconnects the garage DOM observer before battle so carousel scans cannot follow battle UI changes.
 - **1.10.15:** Activates a downloaded update during the same game start and reports it as active without requesting a restart.
 - **1.10.14:** Debounced garage carousel updates, ignored the mod's own UI changes and removed indefinite missing-data scans.
 - **1.10.13:** Confirmed compatible with Micropatch 2.4.1_1, which retains the 2.4.1.0 mod folder.
