@@ -10,6 +10,7 @@ package under one stable filename and removes older versioned copies of that mod
 <summary>Full changelog</summary>
 
 ### BW Stats
+- **1.8.29:** Activates a downloaded update during the same game start and reports it as active without requesting a restart.
 - **1.8.28:** Loads one statistics snapshot at battle start, prevents duplicate requests and removes recurring battle UI work that could reduce FPS.
 - **1.8.27:** Confirmed compatible with Micropatch 2.4.1_1, which retains the 2.4.1.0 mod folder.
 - **1.8.16:** Restored settings and TAB layouts on World of Tanks 2.4.1 and updated battle panel registration.
@@ -30,6 +31,7 @@ package under one stable filename and removes older versioned copies of that mod
 - **1.0.0–1.7.4:** Earlier local packages exist; individual change notes were not recorded.
 
 ### BW Hangar Stats
+- **1.10.15:** Activates a downloaded update during the same game start and reports it as active without requesting a restart.
 - **1.10.14:** Debounced garage carousel updates, ignored the mod's own UI changes and removed indefinite missing-data scans.
 - **1.10.13:** Confirmed compatible with Micropatch 2.4.1_1, which retains the 2.4.1.0 mod folder.
 - **1.10.10:** Restored the garage widget through native World of Tanks 2.4.1 resource registration.
@@ -44,6 +46,7 @@ package under one stable filename and removes older versioned copies of that mod
 - **1.0.0–1.10.0:** Earlier local packages exist; individual change notes were not recorded.
 
 ### BW Reserves
+- **1.1.15:** Activates a downloaded update during the same game start and reports it as active without requesting a restart.
 - **1.1.14:** Replaced the recurring reserve scan with one garage check scheduled for the active reserve's expiry time.
 - **1.1.13:** Confirmed compatible with Micropatch 2.4.1_1, which retains the 2.4.1.0 mod folder.
 - **1.1.12:** Redesigned the Personal Reserves window with the BW Stats blue visual style and checkbox controls.
@@ -59,6 +62,7 @@ package under one stable filename and removes older versioned copies of that mod
 - **1.0.0–1.1.1:** Earlier local packages exist; individual change notes were not recorded.
 
 ### BW AutoClaim
+- **1.2.14:** Activates a downloaded update during the same game start and reports it as active without requesting a restart.
 - **1.2.13:** Limits claim checks to the garage and cancels pending checks when a battle starts.
 - **1.2.12:** Confirmed compatible with Micropatch 2.4.1_1, which retains the 2.4.1.0 mod folder.
 - **1.2.11:** Updated and packaged for World of Tanks 2.4.1.0.
