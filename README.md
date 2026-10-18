@@ -10,6 +10,7 @@ package under one stable filename and removes older versioned copies of that mod
 <summary>Full changelog</summary>
 
 ### BW Stats
+- **1.8.31:** Restores static stats after WoT replaces loading-screen rows and supports replay/special battle lifecycle paths with bounded startup checks.
 - **1.8.30:** Removes document-wide battle mouse handlers; TAB tooltips now listen only on the mod's own elements.
 - **1.8.29:** Activates a downloaded update during the same game start and reports it as active without requesting a restart.
 - **1.8.28:** Loads one statistics snapshot at battle start, prevents duplicate requests and removes recurring battle UI work that could reduce FPS.
