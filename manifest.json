@@ -2,52 +2,52 @@
   "schema": 2,
   "mods": {
     "bw_tank_stats": {
-      "version": "1.8.31",
+      "version": "1.8.32",
       "game_versions": [
         "2.4.1.0",
         "2.4.0.2"
       ],
       "prestage_game_versions": [],
-      "asset": "bw_tank_stats_1.8.31.wotmod",
-      "size": 310434,
-      "sha256": "182c4bef82962c4ce3ed5a9bd0f5b60a442e307a6cfdba84e908dc704d432608",
-      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.18.1/bw_tank_stats_1.8.31.wotmod"
+      "asset": "bw_tank_stats_1.8.32.wotmod",
+      "size": 308996,
+      "sha256": "2fad95da5755239b9d29d9997038aed96b3f964694db780ea661e4c7d86041db",
+      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.22.1/bw_tank_stats_1.8.32.wotmod"
     },
     "bw_hangar_stats": {
-      "version": "1.10.16",
+      "version": "1.10.17",
       "game_versions": [
         "2.4.1.0",
         "2.4.0.2"
       ],
       "prestage_game_versions": [],
-      "asset": "bw_hangar_stats_1.10.16.wotmod",
-      "size": 204621,
-      "sha256": "6d4c0d00ce1eced6b919be5df117d578296418747367cd76e398d9da012b2b1c",
-      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.18.1/bw_hangar_stats_1.10.16.wotmod"
+      "asset": "bw_hangar_stats_1.10.17.wotmod",
+      "size": 211138,
+      "sha256": "b69ea8186a116c4de10df748a730b65cc717572b7934eeaad66d8b8897b21817",
+      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.22.1/bw_hangar_stats_1.10.17.wotmod"
     },
     "bw_reserves": {
-      "version": "1.1.15",
+      "version": "1.1.16",
       "game_versions": [
         "2.4.1.0",
         "2.4.0.2"
       ],
       "prestage_game_versions": [],
-      "asset": "bw_reserves_1.1.15.wotmod",
-      "size": 110037,
-      "sha256": "953e96fdcb6db189183812f48a80366abdde9c69578ce31b671947509c0c68a0",
-      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.18.1/bw_reserves_1.1.15.wotmod"
+      "asset": "bw_reserves_1.1.16.wotmod",
+      "size": 110033,
+      "sha256": "035e19b9243c0f98ea913b548c4d3058674b0ee70bbfa3e41d35df3c25d90d42",
+      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.22.1/bw_reserves_1.1.16.wotmod"
     },
     "bw_autoclaim": {
-      "version": "1.2.14",
+      "version": "1.2.15",
       "game_versions": [
         "2.4.1.0",
         "2.4.0.2"
       ],
       "prestage_game_versions": [],
-      "asset": "bw_autoclaim_1.2.14.wotmod",
-      "size": 101428,
-      "sha256": "737eafca49163c20ee240c4850c03e76f5487d531a8d8bec77802576fe734fee",
-      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.18.1/bw_autoclaim_1.2.14.wotmod"
+      "asset": "bw_autoclaim_1.2.15.wotmod",
+      "size": 101424,
+      "sha256": "55804979c0fae308fd79c46ca5e0192b043be14f2902c6d023670ab0f2c5fd55",
+      "url": "https://github.com/bwsuperstar/bw-mod-releases/releases/download/v2026.10.22.1/bw_autoclaim_1.2.15.wotmod"
     }
   }
 }
